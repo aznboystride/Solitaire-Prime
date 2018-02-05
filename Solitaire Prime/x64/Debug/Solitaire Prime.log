@@ -1,0 +1,3 @@
+﻿  Deck.cpp
+c:\users\peynu\source\repos\solitaire-prime\solitaire prime\deck.cpp(96): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Solitaire Prime.vcxproj -> C:\Users\peynu\source\repos\Solitaire-prime\x64\Debug\Solitaire Prime.exe

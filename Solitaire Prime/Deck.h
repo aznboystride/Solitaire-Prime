@@ -2,20 +2,20 @@
 #define DECK_H
 
 #include "Card.h"
-#include <cstdlib>
 #include <Windows.h>
+#include <ctime>
 
 using namespace std;
 
 class Deck {
 private:
 	Card card[52];
-	int cardsLeft;
+	int top;
 public:
 	Deck();
 	Card Deal();
-	int CardsLeft();
-	void ShowDeck();
+	int CardsLeft() const;
+	void ShowDeck() const;
 	void Shuffle();
 	void RefreshDeck();
 };
